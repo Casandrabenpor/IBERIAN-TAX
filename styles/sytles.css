@@ -1,0 +1,108 @@
+html,
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-width: 320px;
+  background-color: #eef0f8;
+}
+
+/* home */
+.navbar-logo {
+  max-height: 60px;
+  margin-left: -60%;
+}
+
+.nav-item {
+  cursor: pointer;
+}
+
+/* 
+#model-nav {
+    margin-right: -1.5rem;
+    color: red;
+} */
+/* Modelo 210 */
+.imputed-income {
+  font-weight: bold;
+  color: black;
+  cursor: pointer;
+}
+
+#model {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  margin-left: 26%;
+  margin-top: 2%;
+}
+
+.button_model {
+  background-color: white;
+  padding: 40px;
+  border-radius: 25px;
+  margin-right: 20px;
+}
+.button_model .big_icon {
+  font-size: 50px;
+}
+.button_model .big_icon:hover {
+  color: #1363b2;
+}
+.button_model .arrow {
+  font-size: 25px;
+}
+.button_model .arrow:hover {
+  color: #1363b2;
+}
+.button_model .p_model {
+  margin-top: 10%;
+  cursor: pointer;
+}
+.button_model .p_model:hover {
+  color: #1363b2;
+}
+.button_model .button_arrow {
+  display: flex;
+  gap: 5em;
+  justify-content: center;
+  align-items: center;
+  border: transparent;
+  background-color: white;
+  margin-left: 12%;
+}
+
+/* OWNER DATA */
+#form {
+  margin-left: 26%;
+  margin-top: 2%;
+}
+#form h5 {
+  color: #1363b2;
+  margin-top: 20%;
+  margin-bottom: 10%;
+}
+#form button {
+  height: 50px;
+  width: 250px;
+}
+#form .button_radio {
+  display: flex;
+  gap: 5em;
+}
+#form #form_person {
+  margin-top: 5%;
+}
+#form #form_person ul {
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .navbar-logo {
+    max-height: 60px;
+    margin-left: 10%;
+  }
+}/*# sourceMappingURL=sytles.css.map */

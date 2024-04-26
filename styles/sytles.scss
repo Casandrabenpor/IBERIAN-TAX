@@ -1,0 +1,123 @@
+html,
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-width: 320px;
+    background-color: #eef0f8;
+}
+
+/* home */
+.navbar-logo {
+    max-height: 60px;
+    margin-left: -60%;
+
+}
+
+.nav-item {
+    cursor: pointer;
+
+}
+
+/* 
+#model-nav {
+    margin-right: -1.5rem;
+    color: red;
+} */
+
+/* Modelo 210 */
+.imputed-income {
+    font-weight: bold;
+    color: black; 
+    cursor: pointer;
+}
+
+#model {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    margin-left: 26%;
+    margin-top: 2%;
+
+}
+
+.button_model {
+    background-color: white;
+    padding: 40px;
+    border-radius: 25px;
+    margin-right: 20px;
+    .big_icon {
+        font-size: 50px;
+    }
+    
+    .big_icon:hover {
+        color: #1363b2;
+    }
+    
+    .arrow {
+        font-size: 25px;
+    }
+    
+    .arrow:hover {
+        color: #1363b2;
+    }
+    
+    .p_model {
+        margin-top: 10%;
+        cursor: pointer;
+    }
+    
+    .p_model:hover {
+        color: #1363b2;
+    }
+    
+    .button_arrow {
+        display: flex;
+        gap: 5em;
+        justify-content: center;
+        align-items: center;
+        border: transparent;
+        background-color: white;
+        margin-left: 12%;
+    }
+}
+
+
+
+/* OWNER DATA */
+#form {
+    margin-left: 26%;
+    margin-top: 2%;
+
+    h5{
+        color:#1363b2;
+        margin-top: 20%;
+        margin-bottom: 10%;
+    }
+    button{
+        height: 50px;
+        width: 250px;
+    }
+    .button_radio{
+        display: flex;
+        gap: 5em;
+    }
+
+    #form_person{
+        margin-top: 5%;
+        ul{
+            border-radius: 5px;
+        }
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .navbar-logo {
+        max-height: 60px;
+        margin-left: 10%;
+    }
+}
