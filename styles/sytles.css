@@ -129,9 +129,21 @@ body {
   border: none;
 }
 
-@media only screen and (max-width: 1000px) {
-  .navbar-logo {
-    max-height: 60px;
-    margin-left: 10%;
+.btn-form {
+  margin-top: 3%;
+  padding-left: 5%;
+}
+
+@media only screen and (max-width: 576px) {
+  #model {
+    margin-left: 0%;
+  }
+  #form {
+    margin-left: 0%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .description-text {
+    min-block-size: 50px;
   }
 }/*# sourceMappingURL=sytles.css.map */

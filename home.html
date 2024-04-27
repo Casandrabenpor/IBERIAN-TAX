@@ -143,16 +143,16 @@
                 <!-- Form -->
                 <section id="form">
                     <h3>2. Owner data</h3>
-                    <div class="container card border_box">
+                    <div class="container-fluid card border_box">
                         <div class="card-header">
                             <ul class="nav nav-tabs card-header-tabs row">
-                                <li class="nav-item col-3">
+                                <li class="nav-item col-md-3 col-12">
                                     <a class="nav-link" aria-current="true" href="#">Owner 1 - Caterina A</a>
                                 </li>
-                                <li class="nav-item col-3">
+                                <li class="nav-item col-md-3 col-12">
                                     <a class="nav-link active" href="#">Owner 2 - Caterina A</a>
                                 </li>
-                                <li class="nav-item col-3 ">
+                                <li class="nav-item col-md-3 col-12 ">
                                     <a class="nav-link" href="#">Owner 3 - Caterina A</a>
                                 </li>
                             </ul>
@@ -183,21 +183,28 @@
                                     <div class="col-md-4">
                                         <label for="first_middle_name" class="form-label">First and Middle
                                             Name</label>
-                                        <p>Please provide your first and middle name exactly as it appears on your NIE
-                                            card</p>
-                                        <input type="text" class="form-control" aria-label="Nombre">
+                                        <div class="description-text">
+                                            <p>Please provide your first and middle name exactly as it appears on your
+                                                NIE
+                                                card</p>
+                                        </div>
+                                        <input type="text" class="form-control" aria-label="Nombre"
+                                            id="first_middle_name">
                                     </div>
                                     <div class="col-md-4">
                                         <label for="last_name" class="form-label">Last Name</label>
-                                        <p>Please provide your last name exactly as it appears on your NIE card</p>
-                                        <input type="text" class="form-control" aria-label="Apellido">
+                                        <div class="description-text">
+                                            <p>Please provide your last name exactly as it appears on your NIE card</p>
+                                        </div>
+                                        <input type="text" class="form-control" aria-label="Apellido" id="last_name">
                                     </div>
                                     <div class="col-md-4">
                                         <label for="spanish_nie_nif" class="form-label">Spanish NIE/NIF</label>
-                                        <p>e.g. X9464187D
-                                            <br>
-                                        </p>
-                                        <input type="text" class="form-control" aria-label="NIE/NIF">
+                                        <div class="description-text">
+                                            <p>e.g. X9464187D </p>
+                                        </div>
+                                        <input type="text" class="form-control" aria-label="NIE/NIF"
+                                            id="spanish_nie_nif">
                                     </div>
                                 </div>
                                 <div class="row">
@@ -278,32 +285,33 @@
                                     </div>
                                 </div>
                             </div>
+
                         </div>
                     </div>
                 </section>
+                <!-- Button -->
+                <div class="btn-form">
+                    <div class="d-flex justify-content-between container-fluid">
+                        <button type="button" class="btn btn-outline-primary ">Previous stop</button>
+                        <div>
+                            <button type="button" class="btn btn-outline-primary">Save</button>
+                            <button type="button" class="btn btn-outline-primary">Next stop</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Footer -->
+                <footer>
+                    <div class="container-fluid">
+                        <div class="row text-center mt-4">
+                            <p>Agencia Tributaria <br>
+                                Registered Collaborator
+                            </p>
+                        </div>
+                    </div>
+                </footer>
             </div>
         </div>
     </div>
-    <!-- Button -->
-    <div class="container-fluid ">
-        <div class="d-flex justify-content-between">
-            <button type="button" class="btn btn-outline-primary ">Previous stop</button>
-            <div>
-                <button type="button" class="btn btn-outline-primary">Save</button>
-                <button type="button" class="btn btn-outline-primary">Next stop</button>
-            </div>
-        </div>
-    </div>
-    <!-- Footer -->
-    <footer>
-        <div class="container-fluid">
-            <div class="row text-center mt-4">
-                <p>Agencia Tributaria <br>
-                    Registered Collaborator
-                </p>
-            </div>
-        </div>
-    </footer>
 </body>
 
 
