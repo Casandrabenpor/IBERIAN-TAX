@@ -18,16 +18,19 @@
 <body class="bg-light">
     <!-- Nav -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary navbar-light">
-        <div class="container">
-            <a class="navbar-brand mr-sm-auto " href="#"><img src="img/iberiantax_logo_white.png" alt="iberiantax_logo"
-                    class="navbar-logo"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <a class="col-lg-2 navbar-brand mr-sm-auto " href="#"><img src="img/iberiantax_logo_white.png"
+                        alt="iberiantax_logo" class="navbar-logo"></a>
+                <div class="col-lg-10">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link text-white" aria-current="page" href="#">Pricing</a>
@@ -49,6 +52,7 @@
                 </ul>
                 <!-- la barra de navegación derecha -->
             </div>
+
         </div>
     </nav>
     <!-- Sidebar + content -->
@@ -57,34 +61,32 @@
             <!-- Sidebar -->
             <div class="col-lg-2 sidebar bg-primary ">
                 <div class="text-center">
-                    <!-- <button class="btn  text-white" style="background-color: #52c8b8;">GET
-                        STARTED</button> -->
-                    <button type="button" class="btn btn-light get-started-bt">GET
+                    <button type="button" class="btn get-started-bt text-white">GET
                         STARTED</button>
                 </div>
                 <ul class="nav flex-column text-center">
-                    <li class="nav-item">
+                    <li class="nav-item aside-item">
                         <a class="nav-link active text-white" href="#"><i class="bi bi-house"></i> Home</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item aside-item">
                         <a class="nav-link text-white" href="#"><i class="bi bi-ui-checks"></i> Forms</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item aside-item">
                         <a class="nav-link text-white" href="#"><i class="bi bi-house-door"></i> Properties</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item aside-item">
                         <a class="nav-link text-white" href="#"> Owners</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item aside-item">
                         <a class="nav-link text-white" href="#"> Referral</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item aside-item">
                         <a class="nav-link text-white" href="#"> Help Desk</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item aside-item">
                         <a class="nav-link text-white" href="#">Contact</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item aside-item">
                         <a class="nav-link text-white" href="#">Logout</a>
                     </li>
                 </ul>
@@ -141,7 +143,7 @@
                 <!-- Form -->
                 <section id="form">
                     <h3>2. Owner data</h3>
-                    <div class="container card">
+                    <div class="container card border_box">
                         <div class="card-header">
                             <ul class="nav nav-tabs card-header-tabs row">
                                 <li class="nav-item col-3">
@@ -183,19 +185,19 @@
                                             Name</label>
                                         <p>Please provide your first and middle name exactly as it appears on your NIE
                                             card</p>
-                                        <input type="text" class="form-control" id="first_middle_name"
-                                            aria-label="Nombre">
+                                        <input type="text" class="form-control" aria-label="Nombre">
                                     </div>
                                     <div class="col-md-4">
                                         <label for="last_name" class="form-label">Last Name</label>
                                         <p>Please provide your last name exactly as it appears on your NIE card</p>
-                                        <input type="text" class="form-control" id="last_name" aria-label="Apellido">
+                                        <input type="text" class="form-control" aria-label="Apellido">
                                     </div>
                                     <div class="col-md-4">
                                         <label for="spanish_nie_nif" class="form-label">Spanish NIE/NIF</label>
-                                        <p>e.g. X9464187D</p>
-                                        <input type="text" class="form-control" id="spanish_nie_nif"
-                                            aria-label="NIE/NIF">
+                                        <p>e.g. X9464187D
+                                            <br>
+                                        </p>
+                                        <input type="text" class="form-control" aria-label="NIE/NIF">
                                     </div>
                                 </div>
                                 <div class="row">
@@ -228,7 +230,7 @@
                             </div>
                             <div class="container-fluid owner-details">
                                 <h5>Home country address</h5>
-                                <div class="row" style="margin-bottom: 30px;">
+                                <div class="row">
                                     <div class="col-md-4">
                                         <label for="address" class="form-label">Address Line 1</label>
                                         <input type="text" class="form-control" aria-label="Nombre">
@@ -238,15 +240,15 @@
                                         <input type="text" class="form-control" aria-label="Apellido">
                                     </div>
                                     <div class="col-md-4">
-                                        <label class="city" for="autoSizingSelect">City Town</label>
-                                        <select class="form-select">
+                                        <label for="city" class="form-label">City Town</label>
+                                        <select id="city" class="form-select">
                                             <option selected></option>
                                             <option value="1">Madrid</option>
                                             <option value="2">Barcelona</option>
                                         </select>
                                     </div>
                                 </div>
-                                <div class="row" style="margin-bottom: 30px;">
+                                <div class="row">
                                     <div class="col-md-4">
                                         <label for="zip" class="form-label">Postcode/ZIP</label>
                                         <input type="text" class="form-control" aria-label="Nombre">
@@ -264,9 +266,8 @@
                             <div class="container-fluid owner-details">
                                 <h5>Contact details</h5>
                                 <p>If you wish, you can indicate a phone nuber and/or email where the Spanish tax
-                                    authorities
-                                    can reach you:</p>
-                                <div class="row" style="margin-bottom: 30px;">
+                                    authorities can reach you:</p>
+                                <div class="row">
                                     <div class="col-md-4">
                                         <label for="email" class="form-label">Email address</label>
                                         <input type="text" class="form-control" aria-label="Nombre">
@@ -283,6 +284,26 @@
             </div>
         </div>
     </div>
+    <!-- Button -->
+    <div class="container-fluid ">
+        <div class="d-flex justify-content-between">
+            <button type="button" class="btn btn-outline-primary ">Previous stop</button>
+            <div>
+                <button type="button" class="btn btn-outline-primary">Save</button>
+                <button type="button" class="btn btn-outline-primary">Next stop</button>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer>
+        <div class="container-fluid">
+            <div class="row text-center mt-4">
+                <p>Agencia Tributaria <br>
+                    Registered Collaborator
+                </p>
+            </div>
+        </div>
+    </footer>
 </body>
 
 
