@@ -51,177 +51,228 @@
             </div>
         </div>
     </nav>
-    <!-- MODELO 210 -->
-    <section id="model">
-        <h4>Modelo 210</h4>
-        <nav aria-label="breadcrumb">
-            <ol class="breadcrumb ">
-                <li class="breadcrumb-item">Home</li>
-                <li class="breadcrumb-item ">Model 210</li>
-                <li class="breadcrumb-item imputed-income" aria-current="page">Imputed Income</li>
-            </ol>
-        </nav>
-
-        <div class="container mt-5">
-            <div class="row  button_model">
-                <div class="col-12 col-md mb-3">
-                    <!-- Botón Previous -->
-                    <button type="button" class="button_arrow">
-                        <i class="bi bi-clipboard-data big_icon"></i>
-                        <i class="bi bi-arrow-right arrow"></i>
-                    </button>
-                    <p class="p_model">1. Previous Data </p>
+    <!-- Sidebar + content -->
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Sidebar -->
+            <div class="col-lg-2 sidebar bg-primary ">
+                <div class="text-center">
+                    <!-- <button class="btn  text-white" style="background-color: #52c8b8;">GET
+                        STARTED</button> -->
+                    <button type="button" class="btn btn-light get-started-bt">GET
+                        STARTED</button>
                 </div>
-                <div class="col-12 col-md mb-3">
-                    <!-- Botón Owner -->
-                    <button type="button" class="button_arrow">
-                        <i class="bi bi-file-earmark-person big_icon"></i>
-                        <i class="bi bi-arrow-right arrow"></i>
-                    </button>
-                    <p class="p_model"> 2. Owner Data </p>
-                </div>
-                <div class="col-12 col-md mb-3">
-                    <!-- Botón Data -->
-                    <button type="button" class="button_arrow">
-                        <i class="bi bi-house-door big_icon"></i>
-                        <i class="bi bi-arrow-right arrow"></i>
-                    </button>
-                    <p class="p_model"> 3. Property Data </p>
-                </div>
-                <div class="col-12 col-md mb-3">
-                    <!-- Botón Review -->
-                    <button type="button" class="button_arrow">
-                        <i class="bi bi-send-check big_icon"></i>
-                    </button>
-                    <p class="p_model"> 4. Review and Submit </p>
-                </div>
+                <ul class="nav flex-column text-center">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" href="#"><i class="bi bi-house"></i> Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#"><i class="bi bi-ui-checks"></i> Forms</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#"><i class="bi bi-house-door"></i> Properties</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#"> Owners</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#"> Referral</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#"> Help Desk</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Logout</a>
+                    </li>
+                </ul>
             </div>
-        </div>
-    </section>
-    <!-- Form -->
-    <section id="form">
-        <h3>2. Owner data</h3>
-        <div id="form_person">
-            <ul class="nav nav-tabs">
-                <li class="nav-item">
-                    <a class="nav-link bg-secondary" href="#">Owner 1 - Caterina A </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Owner 2 - Caterina A</a>
-                    <div id="form_color">
-                        <h5>Type of owner</h5>
-                        <div class="button_radio">
-                            <button type="button" class="btn btn-outline-primary btn rounded">
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="flexRadioDefault"
-                                        id="flexRadioDefault1">
-                                    <label class="form-check-label" for="flexRadioDefault1">Person</label>
-                                </div>
-                            </button>
-                            <button type="button" class="btn btn-outline-primary btn rounded">
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="flexRadioDefault"
-                                        id="flexRadioDefault2" checked>
-                                    <label class="form-check-label" for="flexRadioDefault2">Company</label>
-                                </div>
-                            </button>
-                        </div>
-                        <h5>Owner details</h5>
-                        <div class="row" style="margin-bottom: 30px;">
-                            <div class="col-md-4">
-                                <label for="first_middle_name" class="form-label">First and Middle Name</label>
-                                <input type="text" class="form-control" id="first_middle_name" aria-label="Nombre">
+            <!-- Content -->
+            <div class="col-lg-10">
+                <!-- MODELO 210 -->
+                <section id="model">
+                    <h4>Modelo 210</h4>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb ">
+                            <li class="breadcrumb-item">Home</li>
+                            <li class="breadcrumb-item ">Model 210</li>
+                            <li class="breadcrumb-item imputed-income" aria-current="page">Imputed Income</li>
+                        </ol>
+                    </nav>
+
+                    <div class="container-fluid mt-5">
+                        <div class="row  button_model">
+                            <div class="col-12 col-md mb-3">
+                                <!-- Botón Previous -->
+                                <button type="button" class="button_arrow">
+                                    <i class="bi bi-clipboard-data big_icon"></i>
+                                    <i class="bi bi-arrow-right arrow"></i>
+                                </button>
+                                <p class="p_model">1. Previous Data </p>
                             </div>
-                            <div class="col-md-4">
-                                <label for="last_name" class="form-label">Last Name</label>
-                                <input type="text" class="form-control" id="last_name" aria-label="Apellido">
+                            <div class="col-12 col-md mb-3">
+                                <!-- Botón Owner -->
+                                <button type="button" class="button_arrow">
+                                    <i class="bi bi-file-earmark-person big_icon"></i>
+                                    <i class="bi bi-arrow-right arrow"></i>
+                                </button>
+                                <p class="p_model"> 2. Owner Data </p>
                             </div>
-                            <div class="col-md-4">
-                                <label for="spanish_nie_nif" class="form-label">Spanish NIE/NIF</label>
-                                <input type="text" class="form-control" id="spanish_nie_nif" aria-label="NIE/NIF">
+                            <div class="col-12 col-md mb-3">
+                                <!-- Botón Data -->
+                                <button type="button" class="button_arrow">
+                                    <i class="bi bi-house-door big_icon"></i>
+                                    <i class="bi bi-arrow-right arrow"></i>
+                                </button>
+                                <p class="p_model"> 3. Property Data </p>
                             </div>
-                        </div>
-                        <div class="row style=" style="margin-bottom: 30px;">
-                            <div class="col-md-4">
-                                <label for="date" class="form-label">Date of Birth</label>
-                                <input type="text" class="form-control" aria-label="birth">
-                            </div>
-                            <div class="col-md-4">
-                                <label for="birth" class="form-label">Place of Birth(City or Town)</label>
-                                <input type="text" class="form-control" aria-label="Apellido">
-                            </div>
-                            <div class="col-md-4">
-                                <label for="country" class="form-label" placeholder="Select birthcountry">Country
-                                    of Birth</label>
-                                <input type="text" class="form-control" aria-label="NIE/NIF">
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <label class="tax" for="autoSizingSelect">Tax
-                                Residence Country
-                            </label>
-                            <select class="form-select">
-                                <option selected></option>
-                                <option value="1">Uno</option>
-                                <option value="2">Dos</option>
-                                <option value="3">Tres</option>
-                            </select>
-                        </div>
-                        <h5>Home country address</h5>
-                        <div class="row" style="margin-bottom: 30px;">
-                            <div class="col-md-4">
-                                <label for="address" class="form-label">Address Line 1</label>
-                                <input type="text" class="form-control" aria-label="Nombre">
-                            </div>
-                            <div class="col-md-4">
-                                <label for="address" class="form-label">Address Line 2</label>
-                                <input type="text" class="form-control" aria-label="Apellido">
-                            </div>
-                            <div class="col-md-4">
-                                <label class="city" for="autoSizingSelect">City Town</label>
-                                <select class="form-select">
-                                    <option selected></option>
-                                    <option value="1">Madrid</option>
-                                    <option value="2">Barcelona</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="row" style="margin-bottom: 30px;">
-                            <div class="col-md-4">
-                                <label for="zip" class="form-label">Postcode/ZIP</label>
-                                <input type="text" class="form-control" aria-label="Nombre">
-                            </div>
-                            <div class="col-md-4">
-                                <label for="state" class="form-label">Province/Region/State</label>
-                                <input type="text" class="form-control" aria-label="Apellido">
-                            </div>
-                            <div class="col-md-4">
-                                <label for="country" class="form-label">Country</label>
-                                <input type="text" class="form-control" aria-label="NIE/NIF">
-                            </div>
-                        </div>
-                        <h5>Contact details</h5>
-                        <p>If you wish, you can indicate a phone nuber and/or email where the Spanish tax authorities
-                            can reach you:</p>
-                        <div class="row" style="margin-bottom: 30px;">
-                            <div class="col-md-4">
-                                <label for="email" class="form-label">Email address</label>
-                                <input type="text" class="form-control" aria-label="Nombre">
-                            </div>
-                            <div class="col-md-4">
-                                <label for="phone number" class="form-label">Phone number</label>
-                                <input type="text" class="form-control" aria-label="Apellido">
+                            <div class="col-12 col-md mb-3">
+                                <!-- Botón Review -->
+                                <button type="button" class="button_arrow">
+                                    <i class="bi bi-send-check big_icon"></i>
+                                </button>
+                                <p class="p_model"> 4. Review and Submit </p>
                             </div>
                         </div>
                     </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link bg-secondary" href="#">Owner 3 - Caterina A</a>
-                </li>
-            </ul>
+                </section>
+                <!-- Form -->
+                <section id="form">
+                    <h3>2. Owner data</h3>
+                    <div class="container card">
+                        <div class="card-header">
+                            <ul class="nav nav-tabs card-header-tabs row">
+                                <li class="nav-item col-3">
+                                    <a class="nav-link" aria-current="true" href="#">Owner 1 - Caterina A</a>
+                                </li>
+                                <li class="nav-item col-3">
+                                    <a class="nav-link active" href="#">Owner 2 - Caterina A</a>
+                                </li>
+                                <li class="nav-item col-3 ">
+                                    <a class="nav-link" href="#">Owner 3 - Caterina A</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="card-body">
+                            <div id="form_color">
+                                <h5>Type of owner</h5>
+                                <div class="button_radio">
+                                    <button type="button" class="btn btn-outline-primary btn rounded">
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                                id="flexRadioDefault1">
+                                            <label class="form-check-label" for="flexRadioDefault1">Person</label>
+                                        </div>
+                                    </button>
+                                    <button type="button" class="btn btn-outline-primary btn rounded">
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                                id="flexRadioDefault2" checked>
+                                            <label class="form-check-label" for="flexRadioDefault2">Company</label>
+                                        </div>
+                                    </button>
+                                </div>
+                                <h5>Owner details</h5>
+                                <div class="row" style="margin-bottom: 30px;">
+                                    <div class="col-md-4">
+                                        <label for="first_middle_name" class="form-label">First and Middle
+                                            Name</label>
+                                        <input type="text" class="form-control" id="first_middle_name"
+                                            aria-label="Nombre">
+                                    </div>
+                                    <div class="col-md-4">
+                                        <label for="last_name" class="form-label">Last Name</label>
+                                        <input type="text" class="form-control" id="last_name" aria-label="Apellido">
+                                    </div>
+                                    <div class="col-md-4">
+                                        <label for="spanish_nie_nif" class="form-label">Spanish NIE/NIF</label>
+                                        <input type="text" class="form-control" id="spanish_nie_nif"
+                                            aria-label="NIE/NIF">
+                                    </div>
+                                </div>
+                                <div class="row style=" style="margin-bottom: 30px;">
+                                    <div class="col-md-4">
+                                        <label for="date" class="form-label">Date of Birth</label>
+                                        <input type="text" class="form-control" aria-label="birth">
+                                    </div>
+                                    <div class="col-md-4">
+                                        <label for="birth" class="form-label">Place of Birth(City or Town)</label>
+                                        <input type="text" class="form-control" aria-label="Apellido">
+                                    </div>
+                                    <div class="col-md-4">
+                                        <label for="country" class="form-label"
+                                            placeholder="Select birthcountry">Country
+                                            of Birth</label>
+                                        <input type="text" class="form-control" aria-label="NIE/NIF">
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <label class="tax" for="autoSizingSelect">Tax
+                                        Residence Country
+                                    </label>
+                                    <select class="form-select">
+                                        <option selected></option>
+                                        <option value="1">Uno</option>
+                                        <option value="2">Dos</option>
+                                        <option value="3">Tres</option>
+                                    </select>
+                                </div>
+                                <h5>Home country address</h5>
+                                <div class="row" style="margin-bottom: 30px;">
+                                    <div class="col-md-4">
+                                        <label for="address" class="form-label">Address Line 1</label>
+                                        <input type="text" class="form-control" aria-label="Nombre">
+                                    </div>
+                                    <div class="col-md-4">
+                                        <label for="address" class="form-label">Address Line 2</label>
+                                        <input type="text" class="form-control" aria-label="Apellido">
+                                    </div>
+                                    <div class="col-md-4">
+                                        <label class="city" for="autoSizingSelect">City Town</label>
+                                        <select class="form-select">
+                                            <option selected></option>
+                                            <option value="1">Madrid</option>
+                                            <option value="2">Barcelona</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="row" style="margin-bottom: 30px;">
+                                    <div class="col-md-4">
+                                        <label for="zip" class="form-label">Postcode/ZIP</label>
+                                        <input type="text" class="form-control" aria-label="Nombre">
+                                    </div>
+                                    <div class="col-md-4">
+                                        <label for="state" class="form-label">Province/Region/State</label>
+                                        <input type="text" class="form-control" aria-label="Apellido">
+                                    </div>
+                                    <div class="col-md-4">
+                                        <label for="country" class="form-label">Country</label>
+                                        <input type="text" class="form-control" aria-label="NIE/NIF">
+                                    </div>
+                                </div>
+                                <h5>Contact details</h5>
+                                <p>If you wish, you can indicate a phone nuber and/or email where the Spanish tax
+                                    authorities
+                                    can reach you:</p>
+                                <div class="row" style="margin-bottom: 30px;">
+                                    <div class="col-md-4">
+                                        <label for="email" class="form-label">Email address</label>
+                                        <input type="text" class="form-control" aria-label="Nombre">
+                                    </div>
+                                    <div class="col-md-4">
+                                        <label for="phone number" class="form-label">Phone number</label>
+                                        <input type="text" class="form-control" aria-label="Apellido">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
         </div>
-
-    </section>
+    </div>
 </body>
 
 

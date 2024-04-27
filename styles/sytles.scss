@@ -21,7 +21,9 @@ body {
     cursor: pointer;
 
 }
-
+.get-started-bt{
+    background-color: #52c8b8 !important;
+}
 /* 
 #model-nav {
     margin-right: -1.5rem;
@@ -39,8 +41,8 @@ body {
     display: flex;
     align-content: center;
     flex-direction: column;
-    margin-left: 26%;
-    margin-top: 2%;
+    margin-top: 5%;
+    margin-left: 5%;
 
 }
 
@@ -89,13 +91,13 @@ body {
 
 /* OWNER DATA */
 #form {
-    margin-left: 26%;
     margin-top: 2%;
+    margin-left: 5%;
 
     h5{
         color:#1363b2;
-        margin-top: 20%;
-        margin-bottom: 10%;
+        // margin-top: 20%;
+        // margin-bottom: 10%;
     }
     button{
         height: 50px;
