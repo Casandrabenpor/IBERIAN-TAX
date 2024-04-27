@@ -43,6 +43,9 @@ body {
   margin-top: 5%;
   margin-left: 5%;
 }
+#model h4 {
+  color: #1363b2;
+}
 
 .button_model {
   background-color: white;
@@ -84,8 +87,13 @@ body {
   margin-top: 2%;
   margin-left: 5%;
 }
+#form h3 {
+  color: #1363b2;
+}
 #form h5 {
   color: #1363b2;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 #form button {
   height: 50px;
@@ -100,6 +108,9 @@ body {
 }
 #form #form_person ul {
   border-radius: 5px;
+}
+#form .owner-details {
+  margin-top: 3%;
 }
 
 @media only screen and (max-width: 1000px) {

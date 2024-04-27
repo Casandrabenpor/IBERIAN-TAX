@@ -43,7 +43,9 @@ body {
     flex-direction: column;
     margin-top: 5%;
     margin-left: 5%;
-
+    h4{
+        color:#1363b2;
+    }
 }
 
 .button_model {
@@ -93,11 +95,13 @@ body {
 #form {
     margin-top: 2%;
     margin-left: 5%;
-
+    h3{
+    color:#1363b2;
+    }
     h5{
         color:#1363b2;
-        // margin-top: 20%;
-        // margin-bottom: 10%;
+        margin-top: 5%;
+        margin-bottom: 5%;
     }
     button{
         height: 50px;
@@ -113,6 +117,9 @@ body {
         ul{
             border-radius: 5px;
         }
+    }
+    .owner-details{
+        margin-top: 3%;
     }
 }
 
