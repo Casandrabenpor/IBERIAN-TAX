@@ -28,12 +28,9 @@ body {
 .get-started-bt{
     background-color: #52c8b8 !important;
 }
-/* 
-#model-nav {
-    margin-right: -1.5rem;
-    color: red;
-} */
-
+p{
+    font-size: 12px;;
+}
 /* Modelo 210 */
 .imputed-income {
     font-weight: bold;
@@ -122,9 +119,6 @@ body {
         ul{
             border-radius: 5px;
         }
-    }
-    .owner-details{
-        margin-top: 3%;
     }
     .form-label{
         font-weight: bold;
