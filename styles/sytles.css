@@ -101,9 +101,8 @@ p {
   margin-top: 5%;
   margin-bottom: 5%;
 }
-#form button {
-  height: 50px;
-  width: 250px;
+#form .custom-btn {
+  width: 200px;
 }
 #form .button_radio {
   display: flex;
